@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   
   await conectionDB();
 
-  // POST api/movies
+  // POST api/movie
 
   const { method } = req;
 
